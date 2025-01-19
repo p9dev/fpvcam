@@ -1,4 +1,4 @@
- # FPVCam
+# FPVCam
 
 FPVCam is a cross-platform video capture and streaming tool that works with the FPVDisplay mobile app for real-time video transmission.
 
@@ -7,15 +7,16 @@ FPVCam is a cross-platform video capture and streaming tool that works with the 
 Choose the appropriate version for your platform:
 
 ### Linux
-- [fpvcam-x86_64](https://github.com/p9dev/fpvcam/releases/download/v1.0.0/fpvcam.arm64) - For 64-bit systems
-- [fpvcam-i386](https://github.com/p9dev/fpvcam/releases/download/v1.0.0/fpvcam.i386) - For 32-bit systems
+- [fpvcam-x86_64](https://github.com/p9dev/fpvcam/releases/latest/download/fpvcam.x86_64) - For 64-bit systems
+- [fpvcam-i386](https://github.com/p9dev/fpvcam/releases/latest/download/fpvcam.i386) - For 32-bit systems
 
-### Raspberry Pi
-- [fpvcam-arm64](https://github.com/p9dev/fpvcam/releases/download/v1.0.0/fpvcam.arm64) - For Raspberry Pi 4/5 (64-bit)
-- [fpvcam-armhf](https://github.com/p9dev/fpvcam/releases/download/v1.0.0/fpvcam.armhf) - For Raspberry Pi 3 and below (32-bit)
+### ARM Devices
+- [fpvcam-arm64](https://github.com/p9dev/fpvcam/releases/latest/download/fpvcam.arm64) - For Raspberry Pi 4/5 (64-bit Ubuntu/Debian)
+- [fpvcam-armhf](https://github.com/p9dev/fpvcam/releases/latest/download/fpvcam.armhf) - For Raspberry Pi 3 and below (32-bit)
+- [fpvcam-aarch64](https://github.com/p9dev/fpvcam/releases/latest/download/fpvcam.aarch64) - For Android devices, embedded Linux, AWS Graviton
 
 ### macOS
-- [fpvcam-macos](https://github.com/p9dev/fpvcam/releases/download/v1.0.0/fpvcam.macos) - For Intel/Apple Silicon
+- [fpvcam-macos](https://github.com/p9dev/fpvcam/releases/latest/download/fpvcam.macos) - For Intel/Apple Silicon
 
 ## Installation
 
@@ -44,9 +45,10 @@ libssl-dev:i386 \
 libsodium-dev:i386
 ```
 
-#### Raspberry Pi
+#### Raspberry Pi & ARM Devices
 
 ```bash
+# For Raspberry Pi OS, Ubuntu/Debian based systems
 sudo apt-get update
 sudo apt-get install -y \
 libopencv-dev \
@@ -54,6 +56,9 @@ libboost-program-options-dev \
 libboost-system-dev \
 libssl-dev \
 libsodium-dev
+
+# For other ARM Linux distributions
+# Please refer to your distribution's package manager
 ```
 
 #### macOS
