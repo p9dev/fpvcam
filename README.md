@@ -7,15 +7,15 @@ FPVCam is a cross-platform video capture and streaming tool that works with the 
 Choose the appropriate version for your platform:
 
 ### Linux
-- [fpvcam-x86_64](releases/latest/download/fpvcam-x86_64) - For 64-bit systems
-- [fpvcam-i386](releases/latest/download/fpvcam-i386) - For 32-bit systems
+- [fpvcam-x86_64](releases/download/v1.0.0/fpvcam.arm64) - For 64-bit systems https://github.com/p9dev/fpvcam/
+- [fpvcam-i386](releases/download/v1.0.0/fpvcam.i386) - For 32-bit systems
 
 ### Raspberry Pi
-- [fpvcam-arm64](releases/latest/download/fpvcam-arm64) - For Raspberry Pi 4/5 (64-bit)
-- [fpvcam-armhf](releases/latest/download/fpvcam-armhf) - For Raspberry Pi 3 and below (32-bit)
+- [fpvcam-arm64](releases/download/v1.0.0/fpvcam.arm64) - For Raspberry Pi 4/5 (64-bit)
+- [fpvcam-armhf](releases/download/v1.0.0/fpvcam.armhf) - For Raspberry Pi 3 and below (32-bit)
 
 ### macOS
-- [fpvcam-macos](releases/latest/download/fpvcam-macos) - For Intel/Apple Silicon
+- [fpvcam-macos](releases/download/v1.0.0/fpvcam.macos) - For Intel/Apple Silicon
 
 ## Installation
 
