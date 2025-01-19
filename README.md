@@ -7,16 +7,16 @@ FPVCam is a cross-platform video capture and streaming tool that works with the 
 Choose the appropriate version for your platform:
 
 ### Linux
-- [fpvcam-x86_64](https://github.com/p9dev/fpvcam/releases/latest/download/fpvcam.x86_64) - For 64-bit systems
-- [fpvcam-i386](https://github.com/p9dev/fpvcam/releases/latest/download/fpvcam.i386) - For 32-bit systems
+- [fpvcam.x86_64](https://github.com/p9dev/fpvcam/releases/latest/download/fpvcam.x86_64) - For 64-bit systems
+- [fpvcam.i386](https://github.com/p9dev/fpvcam/releases/latest/download/fpvcam.i386) - For 32-bit systems
 
 ### ARM Devices
-- [fpvcam-arm64](https://github.com/p9dev/fpvcam/releases/latest/download/fpvcam.arm64) - For Raspberry Pi 4/5 (64-bit Ubuntu/Debian)
-- [fpvcam-armhf](https://github.com/p9dev/fpvcam/releases/latest/download/fpvcam.armhf) - For Raspberry Pi 3 and below (32-bit)
-- [fpvcam-aarch64](https://github.com/p9dev/fpvcam/releases/latest/download/fpvcam.aarch64) - For Android devices, embedded Linux, AWS Graviton
+- [fpvcam.arm64](https://github.com/p9dev/fpvcam/releases/latest/download/fpvcam.arm64) - For Raspberry Pi 4/5 (64-bit Ubuntu/Debian)
+- [fpvcam.armhf](https://github.com/p9dev/fpvcam/releases/latest/download/fpvcam.armhf) - For Raspberry Pi 3 and below (32-bit)
+- [fpvcam.aarch64](https://github.com/p9dev/fpvcam/releases/latest/download/fpvcam.aarch64) - For Android devices, embedded Linux, AWS Graviton
 
 ### macOS
-- [fpvcam-macos](https://github.com/p9dev/fpvcam/releases/latest/download/fpvcam.macos) - For Intel/Apple Silicon
+- [fpvcam.macos](https://github.com/p9dev/fpvcam/releases/latest/download/fpvcam.macos) - For Intel/Apple Silicon
 
 ## Installation
 
