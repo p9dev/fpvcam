@@ -7,7 +7,7 @@ FPVCam is a cross-platform video capture and streaming tool that works with the 
 Choose the appropriate version for your platform:
 
 ### Linux
-- [fpvcam-x86_64](releases/download/v1.0.0/fpvcam.arm64) - For 64-bit systems https://github.com/p9dev/fpvcam/
+- [fpvcam-x86_64](releases/download/v1.0.0/fpvcam.arm64) - For 64-bit systems
 - [fpvcam-i386](releases/download/v1.0.0/fpvcam.i386) - For 32-bit systems
 
 ### Raspberry Pi
